@@ -16,7 +16,6 @@ docker-compose up -d
 ## 4. API resize images
 ```
 * POST: ec2-3-84-252-199.compute-1.amazonaws.com:8000/savefile
-  Header: Content-Type: application/json
   Query Params: files
   Body (form data): 
   files : path/to/file/image1.jpg
